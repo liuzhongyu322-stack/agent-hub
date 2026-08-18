@@ -1,0 +1,25 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+secrets.*
+
+# Local agent and editor state
+.DS_Store
+.idea/
+.vscode/
+.codex/
+.claude/
+.workbuddy/
+.qoder/
+
+# Temporary files
+*.log
+*.tmp
+tmp/
+cache/
