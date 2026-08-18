@@ -9,6 +9,7 @@
 | `hatch-pet` | Codex | `~/.codex/skills/hatch-pet/` | 未评估 | 平台专属或通用性待实际使用确认 |
 | `resume-collaborator` | Codex | `~/.codex/skills/resume-collaborator/` | 未评估 | 平台专属或通用性待实际使用确认 |
 | `translate-pdf__skillhub` | WorkBuddy | `~/.workbuddy/skills/translate-pdf__skillhub/` | 未评估 | 先保留原位，不复制内容 |
+| `pdf-translate` | WorkBuddy | `~/.workbuddy/skills/translate-pdf__skillhub/` | 未评估 | PDF 双语翻译；依赖 `pdf2zh-next`，先保留原位 |
 
 ## 登记规则
 
