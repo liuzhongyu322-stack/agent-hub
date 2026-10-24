@@ -1,0 +1,24 @@
+{
+  "id": "haiyijia-shirt-17088a",
+  "name": "海一家 Hiitika 粉紫衬衫 170/88A",
+  "brand": "海一家 / Hiitika",
+  "category": "top",
+  "size": "170/88A",
+  "thickness": "thin",
+  "stretch": "none",
+  "drape": "fluid",
+  "silhouette": "regular",
+  "fit_goal": "fitted",
+  "vibe": "按你的长期偏好：上半身合身即可",
+  "underwear": "none",
+  "half": false,
+  "params": {
+    "shoulder": 44.5,
+    "bust": 103
+  },
+  "feedback": {
+    "bust": "ok"
+  },
+  "source": "淘宝尺码表截图（2026-10-23）+ 本人实穿照（170/88A：门襟平整无拉扯褶、腰腹有软褶，观感修身舒适）。尺码表未给衣长/袖长/下摆围/袖口，中腰 97（上装表无对应字段，暂记此处）",
+  "note": "垂坠度按实穿照判定为 fluid（面料顺体、无硬顶褶）；underwear 按照片（直接贴身穿、无打底）记为 none。feedback.bust=ok 来自本人实穿确认，是个人松量标定的第一条真样本"
+}
