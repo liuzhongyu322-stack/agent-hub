@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "units": "cm",
+  "_note": "全部围度为整圈周长。若详情页给的是平铺半围，请填 half:true，引擎会自行 ×2 并打标记。",
+  "categories": {
+    "top": {
+      "label": "上装",
+      "examples": ["T恤", "衬衫", "卫衣", "针织衫"],
+      "hard": ["length", "shoulder", "sleeve_length"],
+      "soft": ["bust", "hem", "cuff"],
+      "fields": {
+        "length": {"label": "衣长", "min": 25, "max": 140, "start": "后中领口 → 下摆（后中长）"},
+        "shoulder": {"label": "肩宽", "min": 30, "max": 65, "start": "两肩缝直线距离（不是肩线外沿）"},
+        "sleeve_length": {"label": "袖长", "min": 10, "max": 75, "start": "肩缝 → 袖口"},
+        "bust": {"label": "胸围", "min": 60, "max": 170, "start": "袖窿下 2cm 处，整圈"},
+        "hem": {"label": "下摆围", "min": 60, "max": 190, "start": "下摆处整圈"},
+        "cuff": {"label": "袖口围", "min": 12, "max": 60, "start": "袖口整圈"}
+      },
+      "ease_pairs": [
+        {"part": "bust", "garment": "bust", "body": "bust", "label": "胸围"},
+        {"part": "hem", "garment": "hem", "body": "hip", "label": "下摆 vs 臀围"},
+        {"part": "cuff", "garment": "cuff", "body": "hand", "label": "袖口 vs 掌围"}
+      ],
+      "length_field": "length"
+    },
+    "bottom": {
+      "label": "下装",
+      "examples": ["长裤", "牛仔裤", "短裤", "运动裤"],
+      "hard": ["inseam"],
+      "soft": ["waist", "hip", "trouser_leg"],
+      "fields": {
+        "inseam": {"label": "内长", "min": 20, "max": 100, "start": "裆缝 → 裤口"},
+        "outseam": {"label": "裤长", "min": 30, "max": 130, "start": "腰口 → 裤口（选填）"},
+        "waist": {"label": "腰围", "min": 50, "max": 150, "start": "腰口整圈"},
+        "hip": {"label": "臀围", "min": 70, "max": 170, "start": "臀最丰满处整圈"},
+        "trouser_leg": {"label": "裤口围", "min": 18, "max": 80, "start": "裤口整圈"},
+        "thigh": {"label": "大腿围", "min": 35, "max": 100, "start": "横裆下 2cm 整圈（选填）"}
+      },
+      "ease_pairs": [
+        {"part": "waist", "garment": "waist", "body": "waist", "label": "腰围"},
+        {"part": "hip", "garment": "hip", "body": "hip", "label": "臀围"},
+        {"part": "trouser_leg", "garment": "trouser_leg", "body": "calf", "label": "裤口 vs 小腿围"}
+      ],
+      "length_field": "inseam",
+      "length_kind": "inseam"
+    },
+    "skirt": {
+      "label": "裙装",
+      "examples": ["半身裙", "连衣裙"],
+      "hard": ["length"],
+      "soft": ["waist", "hip", "sweep"],
+      "fields": {
+        "length": {"label": "裙长", "min": 25, "max": 140, "start": "腰口 → 裙摆"},
+        "waist": {"label": "腰围", "min": 50, "max": 150, "start": "腰口整圈"},
+        "hip": {"label": "臀围", "min": 70, "max": 170, "start": "臀最丰满处整圈（选填）"},
+        "sweep": {"label": "摆围", "min": 60, "max": 300, "start": "裙摆整圈"}
+      },
+      "ease_pairs": [
+        {"part": "waist", "garment": "waist", "body": "waist", "label": "腰围"},
+        {"part": "hip", "garment": "hip", "body": "hip", "label": "臀围"}
+      ],
+      "length_field": "length",
+      "length_kind": "skirt"
+    },
+    "outerwear": {
+      "label": "外套",
+      "examples": ["西装", "大衣", "夹克", "羽绒"],
+      "hard": ["length", "shoulder", "sleeve_length"],
+      "soft": ["bust", "hem", "cuff"],
+      "fields": {
+        "length": {"label": "衣长", "min": 40, "max": 150, "start": "后中领口 → 下摆"},
+        "shoulder": {"label": "肩宽", "min": 30, "max": 65, "start": "两肩缝直线距离"},
+        "sleeve_length": {"label": "袖长", "min": 20, "max": 75, "start": "肩缝 → 袖口"},
+        "bust": {"label": "胸围", "min": 70, "max": 190, "start": "袖窿下 2cm 处，整圈"},
+        "hem": {"label": "下摆围", "min": 70, "max": 200, "start": "下摆处整圈"},
+        "cuff": {"label": "袖口围", "min": 12, "max": 60, "start": "袖口整圈"}
+      },
+      "ease_pairs": [
+        {"part": "bust", "garment": "bust", "body": "bust", "label": "胸围（含内搭）", "inner_layer": true},
+        {"part": "hem", "garment": "hem", "body": "hip", "label": "下摆 vs 臀围"},
+        {"part": "cuff", "garment": "cuff", "body": "hand", "label": "袖口 vs 掌围"}
+      ],
+      "length_field": "length",
+      "requires_inner_layer": true
+    }
+  }
+}
