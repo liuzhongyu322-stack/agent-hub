@@ -1,0 +1,23 @@
+{
+  "id": "demo-coat-01",
+  "name": "羊毛单排扣大衣（示例）",
+  "brand": "示例品牌",
+  "category": "outerwear",
+  "size": "L",
+  "thickness": "wool",
+  "stretch": "none",
+  "silhouette": "regular",
+  "inner_layer": "sweater",
+  "underwear": "thin",
+  "half": false,
+  "params": {
+    "length": 100,
+    "shoulder": 44,
+    "sleeve_length": 58,
+    "bust": 112,
+    "hem": 118,
+    "cuff": 32
+  },
+  "source": "示例数据，非真实商品",
+  "note": "外套必须扣内搭厚度，用来验证叠穿那一笔账"
+}
