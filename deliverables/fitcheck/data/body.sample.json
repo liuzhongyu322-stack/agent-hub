@@ -1,0 +1,25 @@
+{
+  "_说明": "演示用示例身材，不是你本人的数据。只用于跑通流程和验收测试。",
+  "_filled": true,
+  "height": 172,
+  "weight": 68,
+  "bust": 92,
+  "waist": 78,
+  "hip": 96,
+  "shoulder": 44,
+  "back_length": 41,
+  "arm_length": 60,
+  "upper_arm": 30,
+  "wrist": 17.5,
+  "hand": 23,
+  "neck": 38,
+  "inseam": 78,
+  "thigh": 56,
+  "calf": 36,
+  "waist_height": null,
+  "waist_to_knee": null,
+  "_meta": {
+    "measured_at": "2026-10-23",
+    "note": "示例数据"
+  }
+}
