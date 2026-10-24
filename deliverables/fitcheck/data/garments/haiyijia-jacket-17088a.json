@@ -1,0 +1,27 @@
+{
+  "id": "haiyijia-jacket-17088a",
+  "name": "海一家 Hiitika 黑色翻领拉链夹克 170/88A",
+  "brand": "海一家 / Hiitika",
+  "category": "outerwear",
+  "size": "170/88A（号型 48）",
+  "thickness": "mid",
+  "stretch": "none",
+  "drape": "regular",
+  "silhouette": "regular",
+  "fit_goal": "fitted",
+  "vibe": "按你的长期偏好：上半身合身即可",
+  "underwear": "none",
+  "inner_layer": "shirt",
+  "half": false,
+  "params": {
+    "shoulder": 45.9,
+    "bust": 111,
+    "length": 67.5,
+    "sleeve_length": 60.5
+  },
+  "feedback": {
+    "bust": "ok"
+  },
+  "source": "淘宝尺码表截图（2026-10-23）。下摆围/袖口未给，袖口判定降级",
+  "note": "面料观感顺滑微垂但夹克有基本骨架，垂坠度按 regular 保守录入（fluid 会让必需松量再降 1.5cm）；内搭按衬衫口径 2.0cm 算（秋穿夹克里面套薄衬衫/T恤），贴身内衣按 none（T恤不占量）"
+}
