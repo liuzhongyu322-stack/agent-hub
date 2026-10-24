@@ -1,0 +1,25 @@
+{
+  "id": "demo-hoodie-01",
+  "name": "厚毛圈连帽卫衣（示例）",
+  "brand": "示例品牌",
+  "category": "top",
+  "size": "L",
+  "thickness": "thick",
+  "stretch": "medium",
+  "silhouette": "relaxed",
+  "fit_goal": "relaxed",
+  "vibe": "秋天套在衬衫外面，慵懒一点，袖子随便堆",
+  "inner_layer": "none",
+  "underwear": "thin",
+  "half": false,
+  "params": {
+    "length": 66,
+    "shoulder": 48,
+    "sleeve_length": 58,
+    "bust": 116,
+    "hem": 110,
+    "cuff": 22
+  },
+  "source": "示例数据，非真实商品",
+  "note": "中弹 + 厚料，用来验证弹性修正与厚度惩罚是否生效"
+}
