@@ -1,0 +1,25 @@
+{
+  "id": "demo-shirt-01",
+  "name": "纯棉府绸衬衫（示例）",
+  "brand": "示例品牌",
+  "category": "top",
+  "size": "M",
+  "thickness": "mid",
+  "stretch": "none",
+  "silhouette": "regular",
+  "fit_goal": "fitted",
+  "vibe": "通勤穿，塞进裤子里，肩线要利落",
+  "inner_layer": "none",
+  "underwear": "thin",
+  "half": false,
+  "params": {
+    "length": 72,
+    "shoulder": 44,
+    "sleeve_length": 60,
+    "bust": 104,
+    "hem": 106,
+    "cuff": 24
+  },
+  "source": "示例数据，非真实商品",
+  "note": "无弹梭织，正好卡在临界区，用来验证四笔账有没有扣对"
+}
