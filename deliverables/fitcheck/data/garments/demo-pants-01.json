@@ -1,0 +1,23 @@
+{
+  "id": "demo-pants-01",
+  "name": "直筒牛仔裤（示例）",
+  "brand": "示例品牌",
+  "category": "bottom",
+  "size": "M",
+  "thickness": "mid",
+  "stretch": "slight",
+  "silhouette": "regular",
+  "inner_layer": "none",
+  "underwear": "none",
+  "half": false,
+  "params": {
+    "inseam": 76,
+    "outseam": 100,
+    "waist": 78,
+    "hip": 104,
+    "trouser_leg": 41,
+    "thigh": 62
+  },
+  "source": "示例数据，非真实商品",
+  "note": "腰围零松量，靠微弹撑住——这是最典型的一档"
+}
