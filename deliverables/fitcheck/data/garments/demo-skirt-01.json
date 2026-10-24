@@ -1,0 +1,21 @@
+{
+  "id": "demo-skirt-01",
+  "name": "无弹 A 字半身裙（示例）",
+  "brand": "示例品牌",
+  "category": "skirt",
+  "size": "S",
+  "thickness": "thin",
+  "stretch": "none",
+  "silhouette": "regular",
+  "inner_layer": "none",
+  "underwear": "none",
+  "half": false,
+  "params": {
+    "length": 78,
+    "waist": 72,
+    "hip": 100,
+    "sweep": 150
+  },
+  "source": "示例数据，非真实商品",
+  "note": "故意的偏小件，用来验证系统敢说「穿不上」而不是硬凑合身"
+}
