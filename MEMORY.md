@@ -13,6 +13,7 @@
 - GitHub 私有仓库将作为跨 Agent 规则、记忆、任务摘要和 Skill 清单的统一来源。
 - 新任务不继承旧任务进度；只有明确续接时才读取任务 checkpoint。
 - 暂不购买云服务器，出现高频跨设备或自动检索需求后再评估。
+- 仓库按项目分类：项目状态与记忆在 projects/<项目>/，交付物在 deliverables/<项目>/，项目清单见 INDEX.md。
 
 ## 已导入的工作背景
 
@@ -25,4 +26,4 @@
 - 新增内容前确认它是否会在未来多个任务中复用。
 - 内容发生变化时直接更新原条目，避免追加互相矛盾的记录。
 - 不确定或未经用户确认的信息不得写成长期事实。
-- （来源：WorkBuddy，2026-10-24）fitcheck 合身判定系统存于 `deliverables/fitcheck/`，P1 已实穿验证（两件真衣）。续接前先读 `deliverables/fitcheck/README.md` 与 `tasks/current.md`。当前待办：短袖路径实测、骨点肩宽实测、个人标定攒样本（2/5）。
+- （来源：WorkBuddy，2026-10-24）fitcheck 合身判定系统：代码交付物在 deliverables/fitcheck/，状态与进度在 projects/fitcheck/。P1 已实穿验证（两件真衣）。续接前先读 projects/fitcheck/README.md 与 projects/fitcheck/current.md。当前待办：短袖路径实测、骨点肩宽实测、个人标定攒样本（2/5）。
